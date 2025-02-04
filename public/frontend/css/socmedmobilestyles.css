@@ -1,0 +1,730 @@
+.social-media-mobile {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .social-media-mobile .overlap-wrapper {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 393px;
+    height: 852px;
+  }
+  
+  .social-media-mobile .overlap {
+    position: relative;
+    width: 394px;
+    height: 859px;
+    top: -7px;
+  }
+  
+  .social-media-mobile .whitebg {
+    position: absolute;
+    width: 393px;
+    height: 852px;
+    top: 7px;
+    left: 0;
+    background-color: #ffffff;
+  }
+  
+  .social-media-mobile .bg {
+    position: absolute;
+    width: 393px;
+    height: 56px;
+    top: 0;
+    left: 0;
+    background-color: #00142b;
+  }
+  
+  .social-media-mobile .logo {
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    top: 12px;
+    left: 9px;
+    object-fit: cover;
+  }
+  
+  .social-media-mobile .homerec {
+    position: absolute;
+    width: 22px;
+    height: 24px;
+    top: 16px;
+    left: 185px;
+    background-color: #213a58;
+    border-radius: 7px;
+  }
+  
+  .social-media-mobile .home {
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    top: 21px;
+    left: 190px;
+  }
+  
+  .social-media-mobile .settings {
+    position: absolute;
+    width: 12px;
+    height: 11px;
+    top: 22px;
+    left: 370px;
+  }
+  
+  .social-media-mobile .chat {
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    top: 22px;
+    left: 141px;
+  }
+  
+  .social-media-mobile .event {
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    top: 21px;
+    left: 238px;
+  }
+  
+  .social-media-mobile .book {
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    top: 21px;
+    left: 274px;
+  }
+  
+  .social-media-mobile .search {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    top: 21px;
+    left: 52px;
+  }
+  
+  .social-media-mobile .notif {
+    position: absolute;
+    width: 8px;
+    height: 10px;
+    top: 89px;
+    left: 340px;
+  }
+  
+  .social-media-mobile .light {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    top: 88px;
+    left: 322px;
+  }
+  
+  .social-media-mobile .profile {
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    top: 81px;
+    left: 356px;
+    object-fit: cover;
+  }
+  
+  .social-media-mobile .createpost {
+    position: absolute;
+    width: 380px;
+    height: 62px;
+    top: 120px;
+    left: 10px;
+  }
+  
+  .social-media-mobile .overlap-group {
+    position: relative;
+    width: 374px;
+    height: 62px;
+    background-color: #ffffff;
+    border-radius: 17px;
+    border: 1px solid;
+    border-color: #a7a7a7;
+  }
+  
+  .social-media-mobile .div {
+    position: absolute;
+    width: 340px;
+    height: 17px;
+    top: 16px;
+    left: 15px;
+    background-color: #e7e7e7;
+    border-radius: 16px;
+  }
+  
+  .social-media-mobile .img {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .social-media-mobile .text-wrapper {
+    position: absolute;
+    width: 58px;
+    top: 7px;
+    left: 22px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #615b5b;
+    font-size: 4px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .social-media-mobile .files {
+    position: absolute;
+    width: 11px;
+    height: 12px;
+    top: 40px;
+    left: 14px;
+  }
+  
+  .social-media-mobile .overlap-2 {
+    position: absolute;
+    width: 156px;
+    height: 12px;
+    top: 42px;
+    left: 26px;
+  }
+  
+  .social-media-mobile .photos {
+    position: absolute;
+    width: 13px;
+    height: 12px;
+    top: 0;
+    left: 24px;
+  }
+  
+  .social-media-mobile .tags {
+    position: absolute;
+    width: 9px;
+    height: 11px;
+    top: 1px;
+    left: 66px;
+  }
+  
+  .social-media-mobile .links {
+    position: absolute;
+    width: 11px;
+    height: 10px;
+    top: 1px;
+    left: 100px;
+  }
+  
+  .social-media-mobile .files-photos-tag {
+    position: absolute;
+    width: 156px;
+    top: 4px;
+    left: 0;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 5px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .social-media-mobile .div-wrapper {
+    position: absolute;
+    width: 36px;
+    height: 14px;
+    top: 40px;
+    left: 320px;
+    background-color: #3b3838;
+    border-radius: 19px;
+  }
+  
+  .social-media-mobile .text-wrapper-2 {
+    position: absolute;
+    width: 12px;
+    top: 4px;
+    left: 14px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 4px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .social-media-mobile .element {
+    position: absolute;
+    width: 2px;
+    height: 9px;
+    top: 5px;
+    left: 354px;
+  }
+  
+  .social-media-mobile .post {
+    position: absolute;
+    width: 384px;
+    height: 223px;
+    top: 207px;
+    left: 10px;
+  }
+  
+  .social-media-mobile .overlap-3 {
+    position: relative;
+    width: 374px;
+    height: 223px;
+    background-color: #ffffff;
+    border-radius: 17px;
+    border: 1px solid;
+    border-color: #a7a7a7;
+  }
+  
+  .social-media-mobile .element-2 {
+    position: absolute;
+    width: 17px;
+    height: 15px;
+    top: 15px;
+    left: 7px;
+    object-fit: cover;
+  }
+  
+  .social-media-mobile .john-michael-conarco {
+    position: absolute;
+    width: 47px;
+    top: 18px;
+    left: 27px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: transparent;
+    font-size: 5px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .social-media-mobile .span {
+    color: #5f5c5c;
+  }
+  
+  .social-media-mobile .text-wrapper-3 {
+    font-family: "Inter-Black", Helvetica;
+    font-weight: 900;
+    color: #ffe900;
+  }
+  
+  .social-media-mobile .magbabalik-ang {
+    position: absolute;
+    width: 60px;
+    top: 59px;
+    left: 13px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 6px;
+    letter-spacing: 0;
+    line-height: 7.8px;
+  }
+  
+  .social-media-mobile .comment {
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    top: 193px;
+    left: 46px;
+  }
+  
+  .social-media-mobile .text-wrapper-4 {
+    position: absolute;
+    width: 11px;
+    top: 196px;
+    left: 19px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #867d7d;
+    font-size: 5px;
+    letter-spacing: 0;
+    line-height: 6.5px;
+  }
+  
+  .social-media-mobile .text-wrapper-5 {
+    position: absolute;
+    width: 28px;
+    top: 196px;
+    left: 57px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #867d7d;
+    font-size: 5px;
+    letter-spacing: 0;
+    line-height: 6.5px;
+  }
+  
+  .social-media-mobile .text-wrapper-6 {
+    position: absolute;
+    width: 16px;
+    top: 196px;
+    left: 110px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #867d7d;
+    font-size: 5px;
+    letter-spacing: 0;
+    line-height: 6.5px;
+  }
+  
+  .social-media-mobile .heart {
+    position: absolute;
+    width: 10px;
+    height: 9px;
+    top: 193px;
+    left: 8px;
+  }
+  
+  .social-media-mobile .share {
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    top: 193px;
+    left: 98px;
+  }
+  
+  .social-media-mobile .element-dot {
+    top: 9px;
+    left: 355px;
+    position: absolute;
+    width: 2px;
+    height: 9px;
+  }
+  
+  .social-media-mobile .text-wrapper-7 {
+    position: absolute;
+    top: 190px;
+    left: 13px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 7px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .social-media-mobile .menu {
+    position: absolute;
+    width: 13px;
+    height: 12px;
+    top: 89px;
+    left: 18px;
+  }
+  
+  .social-media-mobile .bropost {
+    position: absolute;
+    width: 381px;
+    height: 201px;
+    top: 449px;
+    left: 9px;
+  }
+  
+  .social-media-mobile .overlap-4 {
+    position: relative;
+    width: 375px;
+    height: 201px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    border: 1px solid;
+    border-color: #8d8d8d;
+  }
+  
+  .social-media-mobile .reacts {
+    position: absolute;
+    width: 130px;
+    height: 11px;
+    top: 177px;
+    left: 9px;
+  }
+  
+  .social-media-mobile .comment-2 {
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    top: 1px;
+    left: 40px;
+  }
+  
+  .social-media-mobile .text-wrapper-8 {
+    position: absolute;
+    width: 12px;
+    top: 2px;
+    left: 13px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #867d7d;
+    font-size: 5px;
+    letter-spacing: 0;
+    line-height: 6.5px;
+  }
+  
+  .social-media-mobile .text-wrapper-9 {
+    position: absolute;
+    width: 29px;
+    top: 3px;
+    left: 52px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #867d7d;
+    font-size: 5px;
+    letter-spacing: 0;
+    line-height: 6.5px;
+  }
+  
+  .social-media-mobile .text-wrapper-10 {
+    position: absolute;
+    width: 17px;
+    top: 3px;
+    left: 107px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #867d7d;
+    font-size: 5px;
+    letter-spacing: 0;
+    line-height: 6.5px;
+  }
+  
+  .social-media-mobile .heart-2 {
+    position: absolute;
+    width: 10px;
+    height: 9px;
+    top: 0;
+    left: 0;
+  }
+  
+  .social-media-mobile .share-2 {
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    top: 1px;
+    left: 95px;
+  }
+  
+  .social-media-mobile .seminars {
+    position: absolute;
+    width: 368px;
+    height: 117px;
+    top: 49px;
+    left: 3px;
+    object-fit: cover;
+  }
+  
+  .social-media-mobile .p {
+    position: absolute;
+    width: 135px;
+    top: 34px;
+    left: 10px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #0f0f0f;
+    font-size: 5px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .social-media-mobile .overlap-group-2 {
+    position: absolute;
+    width: 189px;
+    height: 11px;
+    top: 13px;
+    left: 30px;
+  }
+  
+  .social-media-mobile .text-wrapper-11 {
+    position: absolute;
+    width: 30px;
+    top: 1px;
+    left: 54px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #535252;
+    font-size: 4px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .social-media-mobile .kyle-zymund-c-grapa {
+    position: absolute;
+    width: 189px;
+    top: 0;
+    left: 0;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: transparent;
+    font-size: 5px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .social-media-mobile .text-wrapper-12 {
+    color: #000000;
+  }
+  
+  .social-media-mobile .kyle {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 9px;
+    left: 9px;
+    object-fit: cover;
+  }
+  
+  .social-media-mobile .element-3 {
+    top: 16px;
+    left: 356px;
+    position: absolute;
+    width: 2px;
+    height: 9px;
+  }
+  /* Original CSS code here */
+  
+  /* Add these new styles */
+  .social-media-mobile {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  
+  .overlap-wrapper {
+    max-width: 100%;
+  }
+  
+  .bg {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  .active {
+    background-color: #213a58;
+    border-radius: 7px;
+    padding: 5px;
+  }
+  
+  .user-actions {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px;
+  }
+  
+  .createpost form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .post-input {
+    display: flex;
+    align-items: center;
+    background-color: #e7e7e7;
+    border-radius: 16px;
+    padding: 5px;
+  }
+  
+  .post-input input {
+    border: none;
+    background: transparent;
+    margin-left: 10px;
+    width: 100%;
+  }
+  
+  .post-actions {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+  }
+  
+  .post-actions button {
+    background: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    font-size: 5px;
+    color: #000000;
+  }
+  
+  .submit-button {
+    align-self: flex-end;
+    background-color: #3b3838;
+    color: #ffffff;
+    border: none;
+    border-radius: 19px;
+    padding: 5px 10px;
+    font-size: 4px;
+    margin-top: 10px;
+  }
+  
+  .more-options {
+    background: none;
+    border: none;
+    padding: 0;
+  }
+  
+  .post,
+  .bropost {
+    margin-bottom: 20px;
+  }
+  
+  .post article,
+  .bropost article {
+    padding: 15px;
+  }
+  
+  .post header,
+  .bropost header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .post footer,
+  .bropost footer {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+  }
+  
+  .reaction {
+    display: flex;
+    align-items: center;
+    background: none;
+    border: none;
+    color: #867d7d;
+    font-size: 5px;
+    margin-right: 15px;
+  }
+  
+  .reaction img {
+    margin-right: 5px;
+  }
+  
+  @media (max-width: 393px) {
+    .social-media-mobile .overlap-wrapper,
+    .social-media-mobile .overlap,
+    .social-media-mobile .whitebg,
+    .social-media-mobile .bg {
+      width: 100%;
+    }
+  }
+  

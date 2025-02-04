@@ -1,0 +1,339 @@
+.edit-profile {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.edit-profile .overlap-wrapper {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 1520px;
+    height: 900px;
+}
+
+.edit-profile .overlap {
+    position: relative;
+    width: 1629px;
+    height: 963px;
+}
+
+.edit-profile .bg {
+    position: absolute;
+    width: 1520px;
+    height: 900px;
+    top: 0;
+    left: 0;
+    background-color: #00142b;
+}
+
+.edit-profile .whitebg {
+    position: absolute;
+    width: 1511px;
+    height: 963px;
+    top: 0;
+    left: 118px;
+    background-color: #ffffff;
+    border-radius: 52px;
+}
+
+.edit-profile .group {
+    width: 64px;
+    height: 269px;
+    left: 28px;
+    position: absolute;
+    top: 23px;
+}
+
+.edit-profile .logo {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.edit-profile .overlap-group {
+    position: absolute;
+    width: 44px;
+    height: 48px;
+    top: 66px;
+    left: 10px;
+    background-color: #213a58;
+    border-radius: 7px;
+}
+
+.edit-profile .home {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 13px;
+    left: 10px;
+}
+
+.edit-profile .wline {
+    position: absolute;
+    width: 58px;
+    height: 1px;
+    top: 121px;
+    left: 5px;
+    object-fit: cover;
+}
+
+.edit-profile .chat {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 140px;
+    left: 20px;
+}
+
+.edit-profile .event {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 192px;
+    left: 20px;
+}
+
+.edit-profile .book {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 244px;
+    left: 19px;
+}
+
+.edit-profile .settings {
+    position: absolute;
+    width: 20px;
+    height: 19px;
+    top: 833px;
+    left: 52px;
+}
+
+.edit-profile .div {
+    width: 1329px;
+    height: 829px;
+    left: 158px;
+    position: absolute;
+    top: 23px;
+}
+
+.edit-profile .profile {
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    top: 0;
+    left: 1165px;
+    object-fit: cover;
+}
+
+.edit-profile .jeriebel-bulac {
+    position: absolute;
+    top: 9px;
+    left: 1217px;
+    font-family: "Istok Web-Regular", Helvetica;
+    font-weight: 400;
+    color: transparent;
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.edit-profile .text-wrapper {
+    color: #686262;
+}
+
+.edit-profile .span {
+    color: #00f110;
+}
+
+.edit-profile .notif {
+    position: absolute;
+    width: 13px;
+    height: 16px;
+    top: 16px;
+    left: 1106px;
+}
+
+.edit-profile .light {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 16px;
+    left: 1132px;
+}
+
+.edit-profile .overlap-2 {
+    position: absolute;
+    width: 1323px;
+    height: 787px;
+    top: 42px;
+    left: 0;
+    background-image: url(../img/recfolder.png);
+    background-size: 100% 100%;
+}
+
+.edit-profile .p {
+    position: absolute;
+    top: 161px;
+    left: 56px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 400;
+    color: transparent;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.edit-profile .text-wrapper-2 {
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.edit-profile .text-wrapper-3 {
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.edit-profile .text-wrapper-4 {
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.edit-profile .text-wrapper-5 {
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffe900;
+    font-size: 14px;
+}
+
+.edit-profile .text-wrapper-6 {
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #b0aeae;
+    font-size: 14px;
+}
+
+.edit-profile .text-wrapper-7 {
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 12px;
+}
+
+.edit-profile .text-wrapper-8 {
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 10px;
+}
+
+.edit-profile .jebel {
+    position: absolute;
+    width: 113px;
+    height: 113px;
+    top: 26px;
+    left: 26px;
+    object-fit: cover;
+}
+
+.edit-profile .edit {
+    position: absolute;
+    width: 10px;
+    height: 12px;
+    top: 204px;
+    left: 393px;
+}
+
+.edit-profile .img {
+    top: 236px;
+    position: absolute;
+    width: 10px;
+    height: 12px;
+    left: 393px;
+}
+
+.edit-profile .edit-2 {
+    top: 270px;
+    position: absolute;
+    width: 10px;
+    height: 12px;
+    left: 393px;
+}
+
+.edit-profile .edit-3 {
+    top: 304px;
+    position: absolute;
+    width: 10px;
+    height: 12px;
+    left: 393px;
+}
+
+.edit-profile .edit-4 {
+    top: 338px;
+    position: absolute;
+    width: 10px;
+    height: 12px;
+    left: 393px;
+}
+
+.edit-profile .div-wrapper {
+    position: absolute;
+    width: 147px;
+    height: 36px;
+    top: 516px;
+    left: 56px;
+    background-color: #00aaff;
+    border-radius: 8px;
+}
+
+.edit-profile .text-wrapper-9 {
+    position: absolute;
+    top: 11px;
+    left: 37px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 11px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.edit-profile .back-button {
+    position: absolute;
+    width: 26px;
+    height: 22px;
+    top: 2px;
+    left: 0;
+    background-color: #ffffff;
+    border-radius: 18px;
+    border: 1px solid;
+    border-color: #938e8e;
+}
+
+.edit-profile .arrowleft {
+    position: absolute;
+    width: 12px;
+    height: 11px;
+    top: 4px;
+    left: 6px;
+}
+
+.active {
+    background-color: rgba(30, 144, 255, 0.2);
+    border-radius: 8px;
+}
+
+.hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}

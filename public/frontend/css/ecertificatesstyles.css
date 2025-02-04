@@ -1,0 +1,536 @@
+.ecertificates {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.ecertificates .overlap-wrapper {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 1520px;
+    height: 900px;
+}
+
+.ecertificates .overlap {
+    position: relative;
+    width: 1629px;
+    height: 950px;
+}
+
+.ecertificates .bg {
+    position: absolute;
+    width: 1520px;
+    height: 900px;
+    top: 0;
+    left: 0;
+    background-color: #00142b;
+}
+
+.ecertificates .group {
+    position: absolute;
+    width: 39px;
+    height: 202px;
+    top: 26px;
+    left: 33px;
+}
+
+.ecertificates .overlap-group {
+    position: absolute;
+    width: 36px;
+    height: 39px;
+    top: 122px;
+    left: 0;
+    background-color: #1c3049;
+    border-radius: 8px;
+}
+
+.ecertificates .img {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 10px;
+    left: 8px;
+}
+
+.ecertificates .home {
+    position: absolute;
+    width: 18px;
+    height: 19px;
+    top: 72px;
+    left: 10px;
+}
+
+.ecertificates .wline {
+    position: absolute;
+    width: 39px;
+    height: 1px;
+    top: 108px;
+    left: 0;
+    object-fit: cover;
+}
+
+.ecertificates .logo {
+    position: absolute;
+    width: 39px;
+    height: 44px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.ecertificates .elearning {
+    position: absolute;
+    width: 18px;
+    height: 20px;
+    top: 182px;
+    left: 10px;
+}
+
+.ecertificates .whitebg {
+    position: absolute;
+    width: 1519px;
+    height: 950px;
+    top: 0;
+    left: 110px;
+    background-color: #ffffff;
+    border-radius: 52px;
+    box-shadow: -13px 4px 4px #00000040;
+}
+
+.ecertificates .searchbar {
+    position: absolute;
+    width: 290px;
+    height: 37px;
+    top: 29px;
+    left: 201px;
+}
+
+.ecertificates .search {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 39px;
+    left: 228px;
+}
+
+.ecertificates .text-wrapper {
+    position: absolute;
+    top: 42px;
+    left: 256px;
+    font-family: "Inter-Light", Helvetica;
+    font-weight: 300;
+    color: #979797;
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.ecertificates .div {
+    position: absolute;
+    width: 218px;
+    height: 40px;
+    top: 26px;
+    left: 1273px;
+}
+
+.ecertificates .profile {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.ecertificates .jeriebel-bulac {
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    font-family: "Inter-Light", Helvetica;
+    font-weight: 400;
+    color: transparent;
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.ecertificates .span {
+    font-weight: 300;
+    color: #000000;
+}
+
+.ecertificates .text-wrapper-2 {
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #00f110;
+}
+
+.ecertificates .settings {
+    position: absolute;
+    width: 20px;
+    height: 19px;
+    top: 8px;
+    left: 196px;
+}
+
+.ecertificates .back-button {
+    position: absolute;
+    width: 36px;
+    height: 30px;
+    top: 34px;
+    left: 155px;
+    background-color: #ffffff;
+    border-radius: 18px;
+    border: 1px solid;
+    border-color: #938e8e;
+}
+
+.ecertificates .arrowleft {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 6px;
+    left: 9px;
+}
+
+.ecertificates .group-2 {
+    position: absolute;
+    width: 1409px;
+    height: 503px;
+    top: 117px;
+    left: 158px;
+}
+
+.ecertificates .overlap-2 {
+    position: absolute;
+    width: 1385px;
+    height: 56px;
+    top: 0;
+    left: 0;
+}
+
+.ecertificates .text-wrapper-3 {
+    position: absolute;
+    top: 6px;
+    left: 947px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 11px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.ecertificates .overlap-3 {
+    position: absolute;
+    width: 68px;
+    height: 23px;
+    top: 0;
+    left: 980px;
+    background-image: url(../img/recdate.png);
+    background-size: 100% 100%;
+}
+
+.ecertificates .down {
+    left: 53px;
+    position: absolute;
+    width: 9px;
+    height: 4px;
+    top: 11px;
+}
+
+.ecertificates .text-wrapper-4 {
+    top: 5px;
+    left: 16px;
+    color: #797070;
+    position: absolute;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.ecertificates .text-wrapper-5 {
+    position: absolute;
+    top: 6px;
+    left: 1063px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 11px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.ecertificates .overlap-4 {
+    position: absolute;
+    width: 68px;
+    height: 23px;
+    top: 0;
+    left: 1105px;
+    background-color: #d9d9d9;
+    border-radius: 8px;
+}
+
+.ecertificates .down-2 {
+    left: 52px;
+    position: absolute;
+    width: 9px;
+    height: 4px;
+    top: 11px;
+}
+
+.ecertificates .text-wrapper-6 {
+    top: 4px;
+    left: 9px;
+    color: #796f6f;
+    position: absolute;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.ecertificates .overlap-5 {
+    position: absolute;
+    width: 1385px;
+    height: 40px;
+    top: 16px;
+    left: 0;
+}
+
+.ecertificates .overlap-6 {
+    position: absolute;
+    width: 215px;
+    height: 40px;
+    top: 0;
+    left: 0;
+}
+
+.ecertificates .text-wrapper-7 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "Poppins-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.ecertificates .p {
+    position: absolute;
+    top: 28px;
+    left: 1px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #787373;
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.ecertificates .blueline {
+    position: absolute;
+    width: 1242px;
+    height: 4px;
+    top: 14px;
+    left: 143px;
+    background-color: #00aaff;
+}
+
+.ecertificates .cert {
+    position: absolute;
+    width: 286px;
+    height: 153px;
+    top: 88px;
+    left: 81px;
+    object-fit: cover;
+}
+
+.ecertificates .cert-2 {
+    position: absolute;
+    width: 286px;
+    height: 153px;
+    top: 88px;
+    left: 473px;
+    object-fit: cover;
+}
+
+.ecertificates .cert-3 {
+    position: absolute;
+    width: 286px;
+    height: 153px;
+    top: 86px;
+    left: 865px;
+    object-fit: cover;
+}
+
+.ecertificates .cert-4 {
+    position: absolute;
+    width: 286px;
+    height: 153px;
+    top: 304px;
+    left: 81px;
+    object-fit: cover;
+}
+
+.ecertificates .cert-5 {
+    position: absolute;
+    width: 286px;
+    height: 153px;
+    top: 307px;
+    left: 473px;
+    object-fit: cover;
+}
+
+.ecertificates .cert-6 {
+    position: absolute;
+    width: 286px;
+    height: 153px;
+    top: 305px;
+    left: 865px;
+    object-fit: cover;
+}
+
+.ecertificates .text-wrapper-8 {
+    position: absolute;
+    top: 251px;
+    left: 81px;
+    font-family: "Poppins-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.ecertificates .text-wrapper-9 {
+    position: absolute;
+    top: 251px;
+    left: 473px;
+    font-family: "Poppins-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.ecertificates .text-wrapper-10 {
+    position: absolute;
+    top: 251px;
+    left: 865px;
+    font-family: "Poppins-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.ecertificates .text-wrapper-11 {
+    position: absolute;
+    top: 467px;
+    left: 81px;
+    font-family: "Poppins-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.ecertificates .innovative-movement {
+    position: absolute;
+    top: 467px;
+    left: 473px;
+    font-family: "Poppins-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.ecertificates .mental-health {
+    position: absolute;
+    top: 467px;
+    left: 865px;
+    font-family: "Poppins-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.ecertificates .love {
+    top: 250px;
+    left: 351px;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+}
+
+.ecertificates .love-2 {
+    top: 466px;
+    left: 351px;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+}
+
+.ecertificates .love-3 {
+    top: 467px;
+    left: 743px;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+}
+
+.ecertificates .love-4 {
+    top: 466px;
+    left: 1134px;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+}
+
+.ecertificates .love-5 {
+    top: 249px;
+    left: 743px;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+}
+
+.ecertificates .love-6 {
+    top: 248px;
+    left: 1135px;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+}
+
+.active {
+    background-color: rgba(30, 144, 255, 0.2);
+    border-radius: 8px;
+}
+
+.hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}

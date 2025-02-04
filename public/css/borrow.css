@@ -1,0 +1,10 @@
+.borrow-card {
+    width: 60%;
+    /* You can change this value */
+    display: block;
+    margin: 0 auto;
+    /* Centers the image horizontally */
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+}

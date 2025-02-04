@@ -1,0 +1,712 @@
+.elearning-platform {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.elearning-platform .overlap-wrapper {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 1520px;
+    height: 900px;
+}
+
+.elearning-platform .overlap {
+    position: relative;
+    width: 1586px;
+    height: 900px;
+}
+
+.elearning-platform .bg {
+    position: absolute;
+    width: 1520px;
+    height: 900px;
+    top: 0;
+    left: 0;
+    background-color: #00142b;
+}
+
+.elearning-platform .group {
+    position: absolute;
+    width: 238px;
+    height: 233px;
+    top: 30px;
+    left: 32px;
+}
+
+.elearning-platform .overlap-group {
+    position: absolute;
+    width: 220px;
+    height: 39px;
+    top: 72px;
+    left: 1px;
+    background-color: #1c3049;
+    border-radius: 8px;
+}
+
+.elearning-platform .home {
+    position: absolute;
+    width: 18px;
+    height: 19px;
+    top: 9px;
+    left: 10px;
+}
+
+.elearning-platform .text-wrapper {
+    position: absolute;
+    top: 15px;
+    left: 59px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #0094ff;
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.elearning-platform .comped {
+    position: absolute;
+    width: 221px;
+    height: 63px;
+    top: 0;
+    left: 11px;
+    object-fit: cover;
+}
+
+.elearning-platform .wline {
+    position: absolute;
+    width: 220px;
+    height: 1px;
+    top: 120px;
+    left: 0;
+    object-fit: cover;
+}
+
+.elearning-platform .ecertificates {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 158px;
+    left: 11px;
+}
+
+.elearning-platform .div {
+    top: 168px;
+    position: absolute;
+    left: 60px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.elearning-platform .elearning {
+    position: absolute;
+    width: 18px;
+    height: 20px;
+    top: 212px;
+    left: 13px;
+}
+
+.elearning-platform .text-wrapper-2 {
+    top: 221px;
+    position: absolute;
+    left: 60px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.elearning-platform .whitebg {
+    position: absolute;
+    width: 1312px;
+    height: 834px;
+    top: 30px;
+    left: 274px;
+    background-color: #ffffff;
+    border-radius: 26px;
+    box-shadow: -13px 4px 4px #00000040;
+}
+
+.elearning-platform .group-2 {
+    position: absolute;
+    width: 290px;
+    height: 31px;
+    top: 46px;
+    left: 304px;
+}
+
+.elearning-platform .overlap-2 {
+    position: absolute;
+    width: 250px;
+    height: 31px;
+    top: 0;
+    left: 38px;
+    background-color: #ffffff;
+    border-radius: 21px;
+    border: 1px solid;
+    border-color: #9a9797;
+}
+
+.elearning-platform .search {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 7px;
+    left: 21px;
+}
+
+.elearning-platform .text-wrapper-3 {
+    position: absolute;
+    top: 11px;
+    left: 44px;
+    font-family: "Inter-Light", Helvetica;
+    font-weight: 300;
+    color: #979797;
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.elearning-platform .back-button {
+    position: absolute;
+    width: 29px;
+    height: 24px;
+    top: 5px;
+    left: 0;
+    background-color: #ffffff;
+    border-radius: 18px;
+    border: 1px solid;
+    border-color: #938e8e;
+}
+
+.elearning-platform .arrowleft {
+    position: absolute;
+    width: 13px;
+    height: 12px;
+    top: 5px;
+    left: 7px;
+}
+
+.elearning-platform .group-3 {
+    position: absolute;
+    width: 204px;
+    height: 34px;
+    top: 46px;
+    left: 1298px;
+}
+
+.elearning-platform .jeriebel-bulac {
+    position: absolute;
+    top: 8px;
+    left: 42px;
+    font-family: "Inter-Light", Helvetica;
+    font-weight: 400;
+    color: transparent;
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.elearning-platform .span {
+    font-weight: 300;
+    color: #000000;
+}
+
+.elearning-platform .text-wrapper-4 {
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #00f110;
+}
+
+.elearning-platform .settings {
+    position: absolute;
+    width: 20px;
+    height: 19px;
+    top: 10px;
+    left: 182px;
+}
+
+.elearning-platform .profile {
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.elearning-platform .blueline {
+    position: absolute;
+    width: 1246px;
+    height: 26px;
+    top: 97px;
+    left: 274px;
+    background-color: #0094ff;
+}
+
+.elearning-platform .overlap-group-wrapper {
+    position: absolute;
+    width: 954px;
+    height: 201px;
+    top: 130px;
+    left: 304px;
+}
+
+.elearning-platform .overlap-3 {
+    position: relative;
+    width: 944px;
+    height: 201px;
+    left: 4px;
+}
+
+.elearning-platform .rectangle {
+    position: absolute;
+    width: 944px;
+    height: 178px;
+    top: 23px;
+    left: 0;
+    background-color: #3194f2;
+    border-radius: 19px;
+}
+
+.elearning-platform .rec {
+    position: absolute;
+    width: 144px;
+    height: 80px;
+    top: 121px;
+    left: 1px;
+}
+
+.elearning-platform .img {
+    position: absolute;
+    width: 154px;
+    height: 102px;
+    top: 91px;
+    left: 756px;
+}
+
+.elearning-platform .rec-2 {
+    position: absolute;
+    width: 142px;
+    height: 75px;
+    top: 59px;
+    left: 552px;
+}
+
+.elearning-platform .rec-3 {
+    position: absolute;
+    width: 83px;
+    height: 93px;
+    top: 24px;
+    left: 3px;
+}
+
+.elearning-platform .elearningplanner {
+    position: absolute;
+    width: 177px;
+    height: 185px;
+    top: 0;
+    left: 426px;
+}
+
+.elearning-platform .text-wrapper-5 {
+    position: absolute;
+    width: 181px;
+    top: 61px;
+    left: 53px;
+    font-family: "Poppins-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.elearning-platform .in-days-speaker {
+    position: absolute;
+    width: 214px;
+    top: 116px;
+    left: 53px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #ececec;
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.elearning-platform .rectangle-2 {
+    position: absolute;
+    width: 177px;
+    height: 46px;
+    top: 139px;
+    left: 677px;
+    background-color: #3194f2;
+    border-radius: 14px;
+    border: 1px solid;
+    border-color: #ffffff;
+}
+
+.elearning-platform .text-wrapper-6 {
+    position: absolute;
+    width: 105px;
+    top: 156px;
+    left: 709px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.elearning-platform .div-wrapper {
+    position: absolute;
+    width: 267px;
+    height: 277px;
+    top: 151px;
+    left: 1264px;
+}
+
+.elearning-platform .overlap-4 {
+    position: relative;
+    width: 256px;
+    height: 277px;
+    background-color: #f4f7ff;
+    border-radius: 8px;
+}
+
+.elearning-platform .overlap-group-2 {
+    position: absolute;
+    width: 165px;
+    height: 47px;
+    top: 229px;
+    left: 91px;
+    background-image: url(../img/recblue.png);
+    background-size: 100% 100%;
+}
+
+.elearning-platform .text-wrapper-7 {
+    position: absolute;
+    top: 20px;
+    left: 39px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.elearning-platform .overlap-5 {
+    position: absolute;
+    width: 188px;
+    height: 124px;
+    top: 21px;
+    left: 11px;
+}
+
+.elearning-platform .rectangle-3 {
+    position: absolute;
+    width: 188px;
+    height: 103px;
+    top: 21px;
+    left: 0;
+    background-color: #cbdef5;
+}
+
+.elearning-platform .e-certificates {
+    position: absolute;
+    top: 0;
+    left: 4px;
+    font-family: "Poppins-Bold", Helvetica;
+    font-weight: 700;
+    color: transparent;
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.elearning-platform .text-wrapper-8 {
+    color: #3194f2;
+}
+
+.elearning-platform .text-wrapper-9 {
+    color: #4d4d4d;
+}
+
+.elearning-platform .group-4 {
+    position: absolute;
+    width: 1207px;
+    height: 357px;
+    top: 364px;
+    left: 45px;
+}
+
+.elearning-platform .overlap-6 {
+    position: absolute;
+    width: 225px;
+    height: 62px;
+    top: 28px;
+    left: 276px;
+    background-color: #ff8177;
+    border-radius: 8px;
+}
+
+.elearning-platform .ongoing-wrapper {
+    position: absolute;
+    width: 52px;
+    height: 46px;
+    top: 9px;
+    left: 15px;
+    background-color: #f8a9a1;
+    border-radius: 8px;
+}
+
+.elearning-platform .ongoing {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 13px;
+    left: 14px;
+}
+
+.elearning-platform .ongoing-courses {
+    position: absolute;
+    top: 19px;
+    left: 79px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffeeee;
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.elearning-platform .arrowright {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 22px;
+    left: 190px;
+}
+
+.elearning-platform .overlap-7 {
+    position: absolute;
+    width: 225px;
+    height: 62px;
+    top: 28px;
+    left: 527px;
+    background-color: #c599ff;
+    border-radius: 8px;
+}
+
+.elearning-platform .upcoming-wrapper {
+    position: absolute;
+    width: 52px;
+    height: 46px;
+    top: 8px;
+    left: 19px;
+    background-color: #d7b7fb;
+    border-radius: 8px;
+}
+
+.elearning-platform .upcoming {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 14px;
+    left: 14px;
+}
+
+.elearning-platform .text-wrapper-10 {
+    position: absolute;
+    top: 19px;
+    left: 88px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.elearning-platform .arrowright-2 {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 22px;
+    left: 189px;
+}
+
+.elearning-platform .overlap-8 {
+    position: absolute;
+    width: 225px;
+    height: 62px;
+    top: 28px;
+    left: 778px;
+    background-color: #52bf83;
+    border-radius: 8px;
+}
+
+.elearning-platform .attended-wrapper {
+    position: absolute;
+    width: 52px;
+    height: 46px;
+    top: 9px;
+    left: 19px;
+    background-color: #85d3a4;
+    border-radius: 8px;
+}
+
+.elearning-platform .attended {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 13px;
+    left: 15px;
+}
+
+.elearning-platform .text-wrapper-11 {
+    position: absolute;
+    top: 113px;
+    left: 277px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.elearning-platform .enhance-software {
+    position: absolute;
+    top: 306px;
+    left: 277px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #575757;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.elearning-platform .getting-started-with {
+    position: absolute;
+    top: 306px;
+    left: 555px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #575757;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.elearning-platform .sumobot-workshop {
+    position: absolute;
+    top: 304px;
+    left: 841px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #575757;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.elearning-platform .text-wrapper-12 {
+    position: absolute;
+    top: 0;
+    left: 276px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.elearning-platform .gift {
+    position: absolute;
+    width: 18px;
+    height: 15px;
+    top: 1px;
+    left: 357px;
+}
+
+.elearning-platform .next {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 114px;
+    left: 1171px;
+}
+
+.elearning-platform .gift-2 {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 112px;
+    left: 460px;
+}
+
+.elearning-platform .previous {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 112px;
+    left: 1146px;
+}
+
+.elearning-platform .codingskill {
+    position: absolute;
+    width: 254px;
+    height: 156px;
+    top: 148px;
+    left: 273px;
+}
+
+.elearning-platform .assembly {
+    position: absolute;
+    width: 254px;
+    height: 156px;
+    top: 148px;
+    left: 556px;
+    object-fit: cover;
+}
+
+.elearning-platform .sumobot {
+    position: absolute;
+    width: 250px;
+    height: 154px;
+    top: 148px;
+    left: 842px;
+    object-fit: cover;
+}
+
+.active {
+    background-color: rgba(30, 144, 255, 0.2);
+    border-radius: 8px;
+}
+
+.hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}

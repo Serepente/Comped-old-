@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body, html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00AAFF;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.half {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.half.left {
+    background-color: #00AAFF;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    flex-grow: 1; 
+}
+
+.logos-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.half.left img.main-logo {
+    width: 20%; 
+    height: auto;
+}
+.half.left img.logo {
+    width: 20%; 
+    height: auto;
+}
+
+.half.left img {
+    margin-bottom: 20px;
+}
+
+.half.left img:first-child {
+    width: 60%; 
+    height: auto;
+}
+
+.comped-a-social {
+    position: relative; 
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 1vh 1vw;
+    letter-spacing: 0%;
+    line-height: normal;
+    text-align: center; /* Center text horizontally */
+    
+  }
+
+.half.right {
+    background-color: #00AAFF;
+    position: relative;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top-left-radius: 70px;
+    border-bottom-left-radius: 70px;
+    position: relative;
+    text-align: center; 
+}
+
+.form-container {
+    width: 100%;
+    max-width: 500px;
+}
+
+h1 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    color: white; 
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.login-btn {
+    background-color: #213A58;
+    color: white;
+    border: none;
+    padding: 4% 7%;
+    font-size: 1.2rem;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-btn i {
+    margin-right: 10px; 
+}
+.login-btn:hover {
+    background-color: #175B80;
+}
+
+.signup-btn {
+    background-color: rgba(255, 255, 255, 0.7);
+    color: black;
+    border: none;
+    padding: 4% 7%;
+    font-size: 1.2rem;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup-btn i {
+    margin-right: 10px; 
+}
+
+.signup-btn:hover {
+    background-color: rgba(255, 255, 255, 1); 
+}
+
+.footer-text {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #ffffff;
+}
+ /* Media Queries (adjust as needed) */
+ @media (max-width: 991px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    justify-content: center;
+    }
+    .half.left img.main-logo {
+        position: relative;
+        top: -25vw;
+        width: 25%;
+    }
+    .half.left img.logo {
+        position: absolute;
+        top: -5vw;
+        width: 80%;
+    }
+    .comped-a-social{
+        position: absolute;
+        top: 10vw;
+       
+    }
+    
+  }
+  
+  @media (max-width: 768px) {
+    .half.left img.main-logo {
+        position: relative;
+        top: -25vw;
+        width: 25%;
+    }
+    .half.left img.logo {
+        position: absolute;
+        top: 0vw;
+        width: 80%;
+    }
+    .comped-a-social{
+        position: absolute;
+        top: 20vw;
+       
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .half.left img.main-logo {
+        position: relative;
+        top: -25vw;
+        width: 25%;
+    }
+    .half.left img.logo {
+        position: absolute;
+        top: 0vw;
+        width: 80%;
+    }
+    .comped-a-social{
+        position: absolute;
+        top: 18vw;
+        font-size: .5vh .5vw;
+       
+    }
+  }
+  @media (max-width: 264px) {
+    .half.left img.main-logo {
+        position: relative;
+        top: -25vw;
+        width: 25%;
+    }
+    .half.left img.logo {
+        position: absolute;
+        top: 0vw;
+        width: 80%;
+    }
+    .comped-a-social{
+        position: absolute;
+        top: 18vw;
+       
+    }
+  }

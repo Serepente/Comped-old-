@@ -1,0 +1,525 @@
+.pdf-view {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+.pdf-view .overlap-wrapper {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 1520px;
+    height: 900px;
+}
+.pdf-view .overlap {
+    position: relative;
+    width: 1581px;
+    height: 969px;
+    top: -2px;
+}
+.pdf-view .bg {
+    position: absolute;
+    width: 1520px;
+    height: 900px;
+    top: 2px;
+    left: 0;
+    background-color: #00142b;
+}
+.pdf-view .group {
+    position: absolute;
+    width: 39px;
+    height: 211px;
+    top: 29px;
+    left: 33px;
+}
+.pdf-view .overlap-group {
+    width: 36px;
+    height: 39px;
+    top: 172px;
+    background-color: #1c3049;
+    border-radius: 8px;
+    position: absolute;
+    left: 0;
+}
+.pdf-view .elearning {
+    position: absolute;
+    width: 18px;
+    height: 20px;
+    top: 10px;
+    left: 10px;
+}
+.pdf-view .home {
+    position: absolute;
+    width: 18px;
+    height: 19px;
+    top: 72px;
+    left: 10px;
+}
+.pdf-view .wline {
+    position: absolute;
+    width: 39px;
+    height: 1px;
+    top: 108px;
+    left: 0;
+    object-fit: cover;
+}
+.pdf-view .logo {
+    position: absolute;
+    width: 39px;
+    height: 44px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+.pdf-view .ecertificates {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 132px;
+    left: 8px;
+}
+.pdf-view .whitebg {
+    position: absolute;
+    width: 1462px;
+    height: 945px;
+    top: 2px;
+    left: 105px;
+    background-color: #ffffff;
+    border-radius: 52px;
+    box-shadow: -13px 4px 4px #00000040;
+}
+.pdf-view .div {
+    position: absolute;
+    width: 1339px;
+    height: 40px;
+    top: 34px;
+    left: 140px;
+}
+.pdf-view .profile {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 0;
+    left: 1119px;
+    object-fit: cover;
+}
+.pdf-view .jeriebel-bulac {
+    position: absolute;
+    top: 12px;
+    left: 1167px;
+    font-family: "Inter-Light", Helvetica;
+    font-weight: 400;
+    color: transparent;
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+.pdf-view .text-wrapper {
+    font-weight: 300;
+    color: #000000;
+}
+.pdf-view .span {
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #00f110;
+}
+.pdf-view .div-wrapper {
+    position: absolute;
+    width: 290px;
+    height: 37px;
+    top: 2px;
+    left: 39px;
+    background-image: url(/img/searchbar1.png);
+    background-size: 100% 100%;
+}
+.pdf-view .text-wrapper-2 {
+    position: absolute;
+    top: 15px;
+    left: 44px;
+    font-family: "Inter-Light", Helvetica;
+    font-weight: 300;
+    color: #979797;
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+.pdf-view .settings {
+    position: absolute;
+    width: 20px;
+    height: 19px;
+    top: 8px;
+    left: 1315px;
+}
+.pdf-view .back-button {
+    position: absolute;
+    width: 28px;
+    height: 23px;
+    top: 9px;
+    left: 0;
+    background-color: #ffffff;
+    border-radius: 18px;
+    border: 1px solid;
+    border-color: #938e8e;
+}
+.pdf-view .arrowleft {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    top: 5px;
+    left: 7px;
+}
+.pdf-view .group-2 {
+    position: absolute;
+    width: 1411px;
+    height: 538px;
+    top: 110px;
+    left: 148px;
+}
+.pdf-view .text-wrapper-3 {
+    top: 0;
+    left: 0;
+    font-family: "Poppins-Bold", Helvetica;
+    font-weight: 700;
+    font-size: 20px;
+    position: absolute;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: normal;
+}
+.pdf-view .p {
+    position: absolute;
+    top: 32px;
+    left: 0;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #787373;
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+.pdf-view .blueline {
+    position: absolute;
+    width: 1085px;
+    height: 4px;
+    top: 15px;
+    left: 320px;
+    background-color: #00aaff;
+}
+.pdf-view .add-wrapper {
+    position: absolute;
+    width: 24px;
+    height: 22px;
+    top: 33px;
+    left: 1303px;
+    background-color: #f2f0f0;
+    border-radius: 7px;
+}
+.pdf-view .img {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    top: 4px;
+    left: 5px;
+}
+.pdf-view .menu-wrapper {
+    position: absolute;
+    width: 24px;
+    height: 22px;
+    top: 33px;
+    left: 1269px;
+    background-color: #f2f0f0;
+    border-radius: 7px;
+}
+.pdf-view .this-introductory {
+    position: absolute;
+    top: 83px;
+    left: 1px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+.pdf-view .text-wrapper-4 {
+    font-weight: 500;
+}
+.pdf-view .text-wrapper-5 {
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    font-size: 14px;
+}
+.pdf-view .module {
+    position: absolute;
+    width: 986px;
+    height: 207px;
+    top: 171px;
+    left: 1px;
+}
+.pdf-view .overlap-2 {
+    position: absolute;
+    width: 982px;
+    height: 39px;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #a3a2a2;
+}
+.pdf-view .module-2 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 10px;
+    left: 24px;
+}
+.pdf-view .text-wrapper-6 {
+    position: absolute;
+    top: 13px;
+    left: 68px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+.pdf-view .down-wrapper {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    top: 14px;
+    left: 956px;
+    background-color: #d9d9d9;
+    border-radius: 5px;
+}
+.pdf-view .down {
+    position: absolute;
+    width: 8px;
+    height: 6px;
+    top: 4px;
+    left: 3px;
+}
+.pdf-view .overlap-group-2 {
+    width: 982px;
+    height: 168px;
+    top: 39px;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #888484;
+    position: absolute;
+    left: 0;
+}
+.pdf-view .side {
+    top: 13px;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 25px;
+    background-color: #ffffff;
+    border-radius: 9px;
+    border: 1px solid;
+    border-color: #dad6d6;
+}
+.pdf-view .side-2 {
+    position: absolute;
+    width: 5px;
+    height: 10px;
+    top: 3px;
+    left: 6px;
+}
+.pdf-view .side-wrapper {
+    top: 47px;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 25px;
+    background-color: #ffffff;
+    border-radius: 9px;
+    border: 1px solid;
+    border-color: #dad6d6;
+}
+.pdf-view .img-wrapper {
+    top: 78px;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 25px;
+    background-color: #ffffff;
+    border-radius: 9px;
+    border: 1px solid;
+    border-color: #dad6d6;
+}
+.pdf-view .side-3 {
+    top: 109px;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 25px;
+    background-color: #ffffff;
+    border-radius: 9px;
+    border: 1px solid;
+    border-color: #dad6d6;
+}
+.pdf-view .side-4 {
+    top: 139px;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 25px;
+    background-color: #ffffff;
+    border-radius: 9px;
+    border: 1px solid;
+    border-color: #dad6d6;
+}
+.pdf-view .overlap-3 {
+    position: absolute;
+    width: 981px;
+    height: 135px;
+    top: 20px;
+    left: 1px;
+}
+.pdf-view .lines {
+    position: absolute;
+    width: 980px;
+    height: 1px;
+    top: 20px;
+    left: 0;
+    object-fit: cover;
+}
+.pdf-view .lines-2 {
+    top: 52px;
+    position: absolute;
+    width: 980px;
+    height: 1px;
+    left: 1px;
+    object-fit: cover;
+}
+.pdf-view .lines-3 {
+    top: 82px;
+    position: absolute;
+    width: 980px;
+    height: 1px;
+    left: 1px;
+    object-fit: cover;
+}
+.pdf-view .lines-4 {
+    top: 113px;
+    position: absolute;
+    width: 980px;
+    height: 1px;
+    left: 1px;
+    object-fit: cover;
+}
+.pdf-view .element-the-world-of {
+    position: absolute;
+    top: 0;
+    left: 68px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #6f6f6f;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+.pdf-view .modules {
+    position: absolute;
+    width: 990px;
+    height: 156px;
+    top: 382px;
+    left: 1px;
+}
+.pdf-view .rectangle {
+    position: absolute;
+    width: 982px;
+    height: 39px;
+    top: -1px;
+    left: -1px;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #a3a2a2;
+}
+.pdf-view .rectangle-2 {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    top: 13px;
+    left: 955px;
+    background-color: #d9d9d9;
+    border-radius: 5px;
+}
+.pdf-view .down-2 {
+    position: absolute;
+    width: 8px;
+    height: 6px;
+    top: 17px;
+    left: 958px;
+}
+.pdf-view .overlap-4 {
+    position: absolute;
+    width: 982px;
+    height: 39px;
+    top: 39px;
+    left: 0;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #a3a2a2;
+}
+.pdf-view .overlap-5 {
+    position: absolute;
+    width: 982px;
+    height: 39px;
+    top: 78px;
+    left: 0;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #a3a2a2;
+}
+.pdf-view .overlap-6 {
+    position: absolute;
+    width: 982px;
+    height: 39px;
+    top: 117px;
+    left: 0;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #a3a2a2;
+}
+.pdf-view .graybg {
+    position: absolute;
+    width: 1476px;
+    height: 969px;
+    top: 0;
+    left: 105px;
+    background-color: #3d3939b8;
+    border-radius: 52px;
+}
+.pdf-view .overlap-group-wrapper {
+    position: absolute;
+    width: 1415px;
+    height: 902px;
+    top: 3px;
+    left: 105px;
+}
+.pdf-view .overlap-7 {
+    position: relative;
+    height: 899px;
+}
+.pdf-view .pdf {
+    position: absolute;
+    width: 799px;
+    height: 899px;
+    top: 0;
+    left: 304px;
+    object-fit: cover;
+}
+.pdf-view .pdfborder {
+    position: absolute;
+    width: 1415px;
+    height: 37px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}

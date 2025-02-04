@@ -1,0 +1,593 @@
+.searching {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+.searching .overlap-wrapper {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 1520px;
+    height: 900px;
+}
+.searching .overlap {
+    position: relative;
+    width: 1629px;
+    height: 963px;
+}
+.searching .bg {
+    position: absolute;
+    width: 1520px;
+    height: 900px;
+    top: 0;
+    left: 0;
+    background-color: #00142b;
+}
+.searching .whitebg {
+    position: absolute;
+    width: 1511px;
+    height: 963px;
+    top: 0;
+    left: 118px;
+    background-color: #ffffff;
+    border-radius: 52px;
+}
+.searching .group {
+    position: absolute;
+    width: 64px;
+    height: 269px;
+    top: 23px;
+    left: 28px;
+}
+.searching .logo {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+.searching .overlap-group {
+    position: absolute;
+    width: 44px;
+    height: 48px;
+    top: 66px;
+    left: 10px;
+    background-color: #213a58;
+    border-radius: 7px;
+}
+.searching .home {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 13px;
+    left: 10px;
+}
+.searching .wline {
+    position: absolute;
+    width: 58px;
+    height: 1px;
+    top: 121px;
+    left: 5px;
+    object-fit: cover;
+}
+.searching .chat {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 140px;
+    left: 20px;
+}
+.searching .event {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 192px;
+    left: 20px;
+}
+.searching .book {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 244px;
+    left: 19px;
+}
+.searching .div {
+    position: absolute;
+    width: 1323px;
+    height: 90px;
+    top: 25px;
+    left: 165px;
+}
+.searching .faces {
+    position: absolute;
+    width: 688px;
+    height: 50px;
+    top: 23px;
+    left: 0;
+}
+.searching .jebel-benj-conarcs {
+    position: absolute;
+    top: 78px;
+    left: 9px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+.searching .text-wrapper {
+    position: absolute;
+    top: 0;
+    left: 2px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+.searching .rectangle {
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    top: 14px;
+    left: 1159px;
+    object-fit: cover;
+}
+.searching .jeriebel-bulac {
+    position: absolute;
+    top: 21px;
+    left: 1211px;
+    font-family: "Istok Web-Regular", Helvetica;
+    font-weight: 400;
+    color: transparent;
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+.searching .span {
+    color: #686262;
+}
+.searching .text-wrapper-2 {
+    color: #00f110;
+}
+.searching .notif {
+    position: absolute;
+    width: 13px;
+    height: 16px;
+    top: 30px;
+    left: 1100px;
+}
+.searching .light {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 30px;
+    left: 1126px;
+}
+.searching .settings {
+    position: absolute;
+    width: 20px;
+    height: 19px;
+    top: 833px;
+    left: 52px;
+}
+.searching .group-2 {
+    position: absolute;
+    width: 362px;
+    height: 422px;
+    top: 183px;
+    left: 1131px;
+}
+.searching .conarcs {
+    width: 50px;
+    height: 50px;
+    top: 49px;
+    left: 2px;
+    position: absolute;
+    object-fit: cover;
+}
+.searching .kenneth {
+    width: 50px;
+    height: 50px;
+    top: 118px;
+    left: 2px;
+    position: absolute;
+    object-fit: cover;
+}
+.searching .kyle {
+    width: 50px;
+    height: 50px;
+    top: 187px;
+    left: 2px;
+    position: absolute;
+    object-fit: cover;
+}
+.searching .john-michael-conarco {
+    top: 67px;
+    left: 62px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 9px;
+    position: absolute;
+    letter-spacing: 0;
+    line-height: normal;
+}
+.searching .div-wrapper {
+    position: absolute;
+    width: 73px;
+    height: 32px;
+    top: 58px;
+    left: 272px;
+    background-color: #00aaff;
+    border-radius: 32px;
+}
+.searching .text-wrapper-3 {
+    position: absolute;
+    top: 10px;
+    left: 21px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 9px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+.searching .overlap-2 {
+    position: absolute;
+    width: 73px;
+    height: 32px;
+    top: 125px;
+    left: 272px;
+    background-color: #ffffff;
+    border-radius: 32px;
+    border: 1px solid;
+    border-color: #807d7d;
+}
+.searching .text-wrapper-4 {
+    position: absolute;
+    top: 9px;
+    left: 14px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #494343;
+    font-size: 9px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+.searching .overlap-3 {
+    position: absolute;
+    width: 73px;
+    height: 32px;
+    top: 192px;
+    left: 272px;
+    background-color: #ffffff;
+    border-radius: 32px;
+    border: 1px solid;
+    border-color: #807d7d;
+}
+.searching .line {
+    position: absolute;
+    width: 348px;
+    height: 1px;
+    top: 260px;
+    left: 2px;
+    object-fit: cover;
+}
+.searching .text-wrapper-5 {
+    position: absolute;
+    top: 269px;
+    left: 0;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 11px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+.searching .jobs {
+    position: absolute;
+    width: 350px;
+    height: 120px;
+    top: 302px;
+    left: 0;
+}
+.searching .group-3 {
+    position: absolute;
+    width: 870px;
+    height: 487px;
+    top: 163px;
+    left: 167px;
+}
+.searching .searchbar {
+    position: absolute;
+    width: 826px;
+    height: 35px;
+    top: 0;
+    left: 46px;
+}
+.searching .overlap-group-2 {
+    position: relative;
+    width: 824px;
+    height: 35px;
+}
+.searching .edit-profile-button {
+    position: absolute;
+    width: 824px;
+    height: 34px;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    border-radius: 20px;
+    border: 1px solid;
+    border-color: #bdb4b4;
+}
+.searching .search {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    top: 11px;
+    left: 21px;
+}
+.searching .text-wrapper-6 {
+    position: absolute;
+    width: 105px;
+    top: 13px;
+    left: 51px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #6f6f6f;
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+.searching .overlap-4 {
+    position: absolute;
+    width: 870px;
+    height: 78px;
+    top: 66px;
+    left: 0;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: #a8a0a0;
+}
+.searching .img {
+    position: absolute;
+    width: 65px;
+    height: 58px;
+    top: 9px;
+    left: 5px;
+    object-fit: cover;
+}
+.searching .java {
+    position: absolute;
+    width: 125px;
+    height: 46px;
+    top: 14px;
+    left: 93px;
+}
+.searching .overlap-5 {
+    position: relative;
+    width: 123px;
+    height: 46px;
+}
+.searching .p {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "Poppins-Medium", Helvetica;
+    font-weight: 500;
+    color: transparent;
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+.searching .text-wrapper-7 {
+    color: #000000;
+}
+.searching .text-wrapper-8 {
+    color: #ffffff;
+}
+.searching .text-wrapper-9 {
+    color: #fb00ff;
+}
+.searching .java-2 {
+    position: absolute;
+    width: 14px;
+    height: 16px;
+    top: 30px;
+    left: 3px;
+}
+.searching .element {
+    top: 16px;
+    left: 843px;
+    position: absolute;
+    width: 4px;
+    height: 18px;
+}
+.searching .overlap-6 {
+    position: absolute;
+    width: 870px;
+    height: 78px;
+    top: 153px;
+    left: 0;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: #a8a0a0;
+}
+.searching .overlap-group-wrapper {
+    position: absolute;
+    width: 58px;
+    height: 45px;
+    top: 10px;
+    left: 93px;
+}
+.searching .overlap-7 {
+    position: relative;
+    width: 56px;
+    height: 45px;
+}
+.searching .img-2 {
+    position: absolute;
+    width: 14px;
+    height: 16px;
+    top: 29px;
+    left: 5px;
+}
+.searching .element-dot {
+    top: 15px;
+    left: 843px;
+    position: absolute;
+    width: 4px;
+    height: 18px;
+}
+.searching .overlap-8 {
+    position: absolute;
+    width: 870px;
+    height: 78px;
+    top: 240px;
+    left: 0;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: #a8a0a0;
+}
+.searching .java-3 {
+    position: absolute;
+    width: 70px;
+    height: 45px;
+    top: 10px;
+    left: 93px;
+}
+.searching .overlap-9 {
+    position: relative;
+    width: 68px;
+    height: 45px;
+}
+.searching .element-2 {
+    top: 18px;
+    left: 845px;
+    position: absolute;
+    width: 4px;
+    height: 18px;
+}
+.searching .overlap-10 {
+    position: absolute;
+    width: 870px;
+    height: 78px;
+    top: 325px;
+    left: 0;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: #a8a0a0;
+}
+.searching .conarcs-2 {
+    width: 65px;
+    height: 58px;
+    top: 7px;
+    left: 5px;
+    position: absolute;
+    object-fit: cover;
+}
+.searching .java-4 {
+    position: absolute;
+    width: 116px;
+    height: 45px;
+    top: 7px;
+    left: 93px;
+}
+.searching .overlap-11 {
+    position: relative;
+    width: 114px;
+    height: 45px;
+}
+.searching .java-5 {
+    position: absolute;
+    width: 14px;
+    height: 16px;
+    top: 28px;
+    left: 5px;
+}
+.searching .element-3 {
+    top: 21px;
+    left: 843px;
+    position: absolute;
+    width: 4px;
+    height: 18px;
+}
+.searching .overlap-12 {
+    position: absolute;
+    width: 870px;
+    height: 78px;
+    top: 409px;
+    left: 0;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: #a8a0a0;
+}
+.searching .kyt {
+    position: absolute;
+    width: 65px;
+    height: 58px;
+    top: 6px;
+    left: 5px;
+    object-fit: cover;
+}
+.searching .java-6 {
+    position: absolute;
+    width: 51px;
+    height: 45px;
+    top: 6px;
+    left: 93px;
+}
+.searching .overlap-13 {
+    position: relative;
+    width: 49px;
+    height: 45px;
+}
+.searching .element-4 {
+    top: 23px;
+    left: 843px;
+    position: absolute;
+    width: 4px;
+    height: 18px;
+}
+.searching .back-button {
+    position: absolute;
+    width: 22px;
+    height: 18px;
+    top: 11px;
+    left: 13px;
+    background-color: #ffffff;
+    border-radius: 18px;
+    border: 1px solid;
+    border-color: #938e8e;
+}
+.searching .arrowleft {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 3px;
+    left: 5px;
+}
+
+.active {
+    background-color: rgba(30, 144, 255, 0.2);
+    border-radius: 8px;
+    }
+    .hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    }

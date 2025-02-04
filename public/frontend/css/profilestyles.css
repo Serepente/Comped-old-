@@ -1,0 +1,707 @@
+.social-feed {
+    background: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .bg {
+    background: #00142b; /* Background color */
+    display: flex; /* Flexible layout */
+    flex-direction: row; /* Keeps sidebar and content aligned */
+    min-height: 100vh; /* Full viewport height */
+    width: 100vw; /* Full viewport width */
+    overflow-x: auto;
+    overflow-y: hidden;
+    box-sizing: border-box; /* Includes padding in size calculations */
+    gap: 1.5rem;
+    padding: 1.5rem;
+  }
+  
+  .sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .sidebar img.active {
+    padding: 0.8rem;
+    border-radius: 7px; /* Rounded corners */
+    transition: all 0.10s ease-in-out;
+    background-color: #213a58; /* Dark blue background to match */
+    display: inline-block; /* Ensure the background applies properly */
+    position: relative; /* Positioning to ensure alignment */
+    width: 44px;
+    height: 48px;
+  }
+  
+  .sidebar img.hover {
+    opacity: 0.8;
+    transition: opacity 0.3s;
+  }
+  
+  .logo {
+    width: 4rem;
+    height: 4rem;
+  }
+  
+  .home {
+    width: 1.56rem;
+    height: 1.56rem;
+  }
+  
+  .wline {
+    width: 1.56rem;
+    height: 0.06rem;
+  }
+  
+  .chat {
+    width: 1.56rem;
+    height: 1.56rem;
+  }
+  
+  .event {
+    width: 1.56rem;
+    height: 1.56rem;
+  }
+  
+  .book {
+    width: 1.56rem;
+    height: 1.56rem;
+  }
+  
+  .settings {
+    width: 1.25rem;
+    height: 1.25rem;
+  }
+  
+  .menu-dropdown-icon {
+    display: none; /* Hidden on larger screens */
+  }
+  
+  .menu-dropdown-icon {
+    cursor: pointer;
+    width: 2rem;
+    height: auto;
+  }
+  
+  .content-area {
+    background: #fff;
+    border-radius: 3.25rem;
+    width: 950px;
+    min-height: auto;
+    max-width: 100%;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .profile-header {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .cover {
+    
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  .profile-cover {
+    display: flex;
+    flex-direction: column;
+  }
+ 
+
+  .rec-folder {
+    
+    bottom: 0; /* Place it at the bottom of the cover */
+    left: 0;
+    width: 100%; /* Ensure it spans the full width */
+    height: 7rem;
+    object-fit: cover;
+    
+  }
+  
+  .back-button {
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    width: 30px;
+    height: 30px;
+  }
+  
+  .back-button img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .profile-info {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 8rem;
+    left: 5px;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .profile-picture {
+    width: 145px; /* Set a fixed width for the profile picture */
+    height: auto; /* Set a fixed height for the profile picture */
+    border-radius: 50%; /* Make the image circular */
+    object-fit: cover; /* Ensures the image fills the container without distortion */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a slight shadow for a floating effect */
+    margin-right: 10px;
+  }
+  
+  
+
+  .profile-details {
+    position: absolute; /* Position the profile-details absolutely */
+    bottom: -20px; /* Adjust this value as needed */ 
+    right: -160px; /* Adjust this value as needed */ 
+    padding: 5px;
+    border-radius: 5px;
+    transform: translate(50%, -50%); /* Center the details on the bottom right */
+  }
+  
+  .profile-details h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: white; /* White text color for the name */
+  }
+  
+  .profile-details p {
+    margin: 5px 0; /* Add some margin between lines */
+    font-size: 0.8rem; /* Slightly smaller font size for details */
+    color: white; /* White text color for details */
+  }
+  
+  .label {
+    
+    position: relative; /* Position the label within the profile-info */
+    width: max-content; /* Let the label width adjust to content */
+  }
+  
+  .label .expertise-web-design {
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    font-size: 11px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .label .text-wrapper {
+    color: #ffffff;
+  }
+  
+  .label .span {
+    color: #00f110;
+  }
+  
+  .label .text-wrapper-2 {
+    color: #ffe900;
+  }
+  
+  .label .text-wrapper-3 {
+    color: #ffa500;
+  }
+  
+  .label .text-wrapper-4 {
+    color: #ff0000;
+  }
+  
+  .label .text-wrapper-5 {
+    color: #fb00ff;
+  }
+
+  
+  .post-creation {
+    background: #fff;
+    border: 1px solid #a8a8a8;
+    border-radius: 1.0625rem;
+    padding: 0.8125rem 1.75rem;
+    margin-top: 10px ;
+  }
+  
+  .post-input {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .input-area {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: #e8e8e8;
+    border-radius: 1rem;
+    padding: 0.0625rem 0;
+  }
+  
+  .user-avatar {
+    width: 2.25rem;
+    height: 2.25rem;
+    border-radius: 50%;
+  }
+  
+  .post-text-input {
+    border: none;
+    background: transparent;
+    font-size: 0.625rem;
+    color: #625c5c;
+    width: 100%;
+  }
+  
+  .post-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .action-buttons {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .action-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    font-size: 0.625rem;
+    color: #000;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .action-btn img {
+    width: 1rem; /* Match the size of the files icon */
+    height: 1rem; /* Match the size of the files icon */
+    display: inline-block; /* Ensure proper alignment */
+    vertical-align: middle; /* Aligns with text if there's any */
+  }
+  
+  .post-btn {
+    background: #3c3838;
+    color: #fff;
+    border: none;
+    border-radius: 1.1875rem;
+    padding: 0.5rem 1.4375rem;
+    font-size: 0.625rem;
+    cursor: pointer;
+  }
+  
+  .options-btn {
+    margin-left: auto;
+    background: none;
+    border: none;
+    cursor: pointer;
+    width: 1.56rem;
+    height: 1.56rem;
+  }
+  
+  .options-btn img {
+    width: auto; /* Adjust the size of the icon */
+    height: 1rem; /* Maintain aspect ratio */
+    display: block; /* Prevent inline spacing issues */
+  }
+
+  .no-post-creation {
+    background: #fff;
+    border: 1px solid #a8a8a8;
+    border-radius: 1.0625rem;
+    padding: 0.8125rem 1.75rem;
+    margin-top: 10px;
+  }
+  
+  .no-post-input {
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+  }
+   .no-post {
+    position: flex;
+    margin-bottom: 150px;
+    margin-left: 350px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #d1d4d3;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+  
+  .messages-panel {
+    background: #fff;
+    padding: 1.5rem;
+    width: 28rem; /* Keeps width for larger screens */
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    flex-shrink: 0; /* Prevent it from shrinking */
+    overflow-y: auto; /* Enables vertical scrolling */
+    max-height: calc(100vh - 2rem); /* Adjust height dynamically */
+    position: sticky; /* Makes it sticky in its container */
+    top: 1rem; /* Space from the top */
+  }
+  
+  .menu-content button {
+    border: none;
+    background: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .menu-content button:hover {
+    background: #0056b3;
+  }
+  
+  .menu-content .info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+  }
+  
+  .menu-content .info img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+  
+  .user-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .user-profile {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .icon {
+    width: 1rem;
+    height: 1rem;
+  }
+
+  .profile-pic {
+    width: 2.625rem;
+    height: 2.625rem;
+    border-radius: 50%;
+  }
+  
+  .user-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .username {
+    color: #686262;
+    font-size: 0.625rem;
+  }
+  
+  .user-role {
+    color: #00f110;
+    font-size: 0.625rem;
+  }
+  
+  .search-form {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: #fff;
+    border: 1px solid #bdb4b4;
+    border-radius: 1.25rem;
+    padding: 0.625rem 1rem;
+    width: auto;
+    height: auto;
+  }
+  
+  .search-icon {
+    width: 1rem; /* Adjust icon size */
+    height: 1rem;
+  }
+  
+  .search-input {
+    border: none;
+    outline: none;
+    font-size: 0.875rem; /* Increased font size for better readability */
+    color: #6f6f6f;
+    flex: 1; /* Takes up available space */
+    min-width: 10rem; /* Prevents it from shrinking too much */
+  }
+  
+  .my-profile {
+    margin-bottom: 20px;
+  }
+  
+  .edit-profile {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .edit-profile:hover {
+    background-color: #0056b3;
+  }
+  
+  .panel-title {
+    font-size: 0.9375rem;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 1.9375rem;
+  }
+  
+  .messages-users {
+    display: flex;
+    flex-direction: column;
+    gap: 1.1875rem;
+  }
+  
+  .user-info .name {
+    font-family: "Roboto", sans-serif; /* Change font family */
+    font-size: .6rem; /* Adjust font size */
+    font-weight: 540; /* Make it bold */
+    color: #333; /* Change color to a darker shade */
+  }
+  
+  .user-info .messages {
+    font-family: "Arial", sans-serif; /* Different font for the role */
+    font-size: 0.6rem; /* Slightly smaller font size */
+    font-weight: 400; /* Normal weight */
+    color: #555; /* Gray color */
+  }
+  
+  .user-messages {
+    display: flex; /* Align avatar and text horizontally */
+    align-items: center; /* Vertically align content */
+    gap: 1rem; /* Space between avatar and text */
+    padding: 0.75rem 1rem; /* Add padding for clickable area */
+    text-decoration: none; /* Remove underline for links */
+    background: #f8f9fa; /* Light background color */
+    border-radius: 8px; /* Add rounded corners */
+    transition: background 0.3s ease, box-shadow 0.3s ease; /* Smooth hover transition */
+    color: #333; /* Text color */
+    cursor: pointer; /* Show pointer cursor on hover */
+  }
+  
+  .user-messages:hover {
+    background: #e0e0e0; /* Change background color on hover */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow on hover */
+  }
+  
+  .user-messages:active {
+    background: #d6d6d6; /* Slightly darker background when active */
+    box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.15); /* Shadow inset for active effect */
+  }
+  
+  .messages-avatar {
+    width: 40px; /* Avatar size */
+    height: 40px; /* Keep it square */
+    border-radius: 50%; /* Makes the avatar circular */
+    object-fit: cover; /* Ensures proper image scaling */
+  }
+  
+  .messages-panel .messages-users {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+  }
+  
+  @media (max-width: 991px) {
+    .bg {
+      grid-template-columns: 1fr;
+    }
+  
+    .content-area {
+      border-radius: 3.25rem;
+      padding: 1rem;
+      width: auto;
+    }
+   
+  
+    .messages-panel {
+      width: auto; /* Makes the panel dynamically size */
+      margin-top: 1rem; /* Adds space between content and panel */
+      flex-shrink: 4; /* Prevents the panel from shrinking */
+    }
+  
+  }
+  
+  @media (max-width: 768px) {
+  
+    .sidebar {
+      flex-direction: row; /* Make icons horizontal */
+      justify-content: space-between;
+      align-items: center;
+      background: #00142b;
+      padding: 0.5rem;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+  
+    .suggestions-panel {
+      display: block; /* Hide suggestions panel on mobile */
+    }
+  
+    .menu-dropdown-icon {
+      display: block; /* Show the menu icon on mobile */
+      cursor: pointer;
+    }
+  
+    .menu-content {
+      display: none;
+      position: fixed;
+      top: 45px;
+      right: 0;
+      width: 200px;
+      height: 100%;
+      background: #fff;
+      box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
+      overflow-y: auto;
+      padding: 1rem;
+      z-index: 1000;
+      border-left: 1px solid #ccc;
+    }
+  
+    .menu-content.active {
+      display: block;
+    }
+  
+    .chat-interface {
+      position: absolute; /* Maintain absolute positioning */
+      top: 75%; /* Center vertically */
+      left: 50%; /* Center horizontally */
+      transform: translate(-50%, -50%); /* Keep perfectly centered */
+      max-width: 90%; /* Slightly reduce the width for medium screens */
+      padding: 15px; /* Reduce padding */
+    }
+  
+    .wline {
+      display: none;
+    }
+  
+    .bg {
+      display: flex;
+      flex-direction: column;
+      padding-top: 3rem; /* Adjust for sidebar height */
+      gap: 1rem;
+    }
+  
+    .content-area {
+      background: #fff;
+      border-radius: 3.5rem;
+      margin-top: 1rem;
+      padding: 1rem;
+    }
+  
+    .sidebar img {
+      width: 1rem;
+      height: auto;
+    }
+  
+    .user-header {
+      flex-direction: column;
+      gap: 1rem;
+    }
+  
+    .stories-scroll {
+      margin-top: 1rem; /* Add space below sidebar */
+    }
+  
+    .search-form {
+      width: 100%;
+    }
+  
+    .search-input {
+      width: 100%;
+    }
+  
+    .stories-scroll {
+      gap: 0.5rem;
+    }
+  
+    .story-avatar {
+      width: 2.5rem;
+      height: 2.5rem;
+    }
+  
+    .content-area {
+        background: #fff;
+        border-radius: 1rem;
+        padding: 1.5rem;
+      }
+    
+    }
+    
+    @media (max-width: 480px) {
+      .bg {
+        padding: 1rem;
+      }
+    
+      .content-area {
+        background: #fff;
+        border-radius: 1.5rem;
+        margin-top: 1rem;
+        padding: 1rem;
+      }
+    
+      .chat-interface {
+        position: absolute; /* Maintain absolute positioning */
+        top: 70%; /* Center vertically */
+        left: 50%; /* Center horizontally */
+        transform: translate(-50%, -50%); /* Keep perfectly centered */
+        max-width: 90%; /* Use full width for the smallest screens */
+        padding: 10px; /* Minimal padding for smaller devices */
+        border-radius: 10px; /* Slightly reduced border radius */
+      }
+    
+      .post-creation {
+        padding: 1rem;
+      }
+    
+      .action-buttons {
+        flex-wrap: wrap;
+      }
+    
+      .story-avatar {
+        width: 2rem;
+        height: 2rem;
+      }
+    
+      .story-username {
+        font-size: 0.5625rem;
+      }
+    }
